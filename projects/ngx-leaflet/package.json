@@ -1,5 +1,5 @@
 {
-  "name": "@bluehalo/ngx-leaflet",
+  "name": "tomanak500/ngx-leaflet",
   "description": "Angular.io components for Leaflet",
   "version": "18.0.2",
   "author": "BlueHalo, LLC",
@@ -13,7 +13,8 @@
   "peerDependencies": {
     "@angular/common": "18",
     "@angular/core": "18",
-    "leaflet": "1"
+    "leaflet": "1",
+    "leaflet.markercluster": "1"
   },
   "dependencies": {
     "tslib": "^2.3.0"

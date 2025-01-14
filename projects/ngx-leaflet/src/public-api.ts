@@ -14,3 +14,5 @@ export { LeafletLayersControlDirective } from './lib/layers/control/leaflet-cont
 export { LeafletControlLayersWrapper } from './lib/layers/control/leaflet-control-layers.wrapper';
 export { LeafletControlLayersConfig } from './lib/layers/control/leaflet-control-layers-config.model';
 export { LeafletControlLayersChanges } from './lib/layers/control/leaflet-control-layers-changes.model';
+
+export { LeafletMarkerClusterDirective } from './lib/markercluster/leaflet-markercluster.directive';
