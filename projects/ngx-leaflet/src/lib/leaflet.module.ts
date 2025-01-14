@@ -5,6 +5,7 @@ import { LeafletLayerDirective } from './layers/leaflet-layer.directive';
 import { LeafletLayersDirective } from './layers/leaflet-layers.directive';
 import { LeafletLayersControlDirective } from './layers/control/leaflet-control-layers.directive';
 import { LeafletBaseLayersDirective } from './layers/base/leaflet-baselayers.directive';
+import { LeafletMarkerClusterDirective } from './markercluster/leaflet-markercluster.directive';
 
 @NgModule({
 	exports: [
@@ -12,14 +13,16 @@ import { LeafletBaseLayersDirective } from './layers/base/leaflet-baselayers.dir
 		LeafletLayerDirective,
 		LeafletLayersDirective,
 		LeafletLayersControlDirective,
-		LeafletBaseLayersDirective
+		LeafletBaseLayersDirective,
+		LeafletMarkerClusterDirective,
 	],
 	declarations: [
 		LeafletDirective,
 		LeafletLayerDirective,
 		LeafletLayersDirective,
 		LeafletLayersControlDirective,
-		LeafletBaseLayersDirective
+		LeafletBaseLayersDirective,
+		LeafletMarkerClusterDirective,
 	]
 })
 export class LeafletModule {
